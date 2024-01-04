@@ -1,0 +1,76 @@
+.banner {
+  background-image: url(../img/startseite.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* 
+.banner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+} */
+
+.italic {
+  font-style: italic;
+  text-decoration: none;
+}
+
+.award-color {
+  color: #a3780d;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.center {
+  text-align: center;
+}
+
+.button-style {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding: 1rem 2rem;
+  color: #a3780d;
+  background-color: #fff;
+  border: 3px solid #a3780d;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1rem 2rem;
+  background-color: #a3780d;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+}
+
+/* .button-style:hover {
+  background-color: #fff;
+  color: #a3780d;
+  transition: all 0.3s ease-in-out;
+} */
