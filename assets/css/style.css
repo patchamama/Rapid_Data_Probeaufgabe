@@ -1,5 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 h1 {
@@ -10,12 +17,62 @@ h4 {
   letter-spacing: 3px;
 }
 
+/* contact links */
+
+#contact-links {
+  display: flex;
+  font-size: 90%;
+  justify-content: right;
+}
+
+#contact-links li {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#contact-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#contact-links i {
+  color: #a3780d;
+}
+
+/* menu links */
+
+#menu {
+  font-size: 110%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu img {
+  width: 250px;
+}
+
+#menu li {
+  float: left;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #3a3a3a;
+}
+
 .banner {
   background-image: url(../img/startseite.jpg);
-  background-size: cover;
-  background-position: center;
+  background-size: 120%;
+  background-position: -190px -100px;
   background-repeat: no-repeat;
-  height: 40vh;
+  height: 75vh;
   width: 100%;
   position: relative;
   z-index: 1;
