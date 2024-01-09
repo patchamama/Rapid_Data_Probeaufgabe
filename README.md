@@ -11,3 +11,5 @@
 [ ] Center the text in the form section and add/do corrections in space between elements
 [ ] Check the relation in the height between the banner and the card sections (vh)
 [ ] Check if the web page is responsive
+[ ] Testing with chrome, safari, firefox
+[ ] CSS / HTML struct checking!
