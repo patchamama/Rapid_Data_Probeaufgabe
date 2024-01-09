@@ -9,3 +9,5 @@
 [ ] Add JS to validate form entries...???
 [ ] Check fonts styles and font sizes...
 [ ] Center the text in the form section and add/do corrections in space between elements
+[ ] Check the relation in the height between the banner and the card sections (vh)
+[ ] Check if the web page is responsive
