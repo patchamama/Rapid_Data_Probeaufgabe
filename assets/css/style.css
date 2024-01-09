@@ -144,7 +144,11 @@ h4 {
 }
 
 #form {
-  background-color: #212140;
+  color: #fff;
+  background-color: #808080;
+  padding: 20px;
+  display: flex;
+  text-align: center;
 }
 
 /* 
