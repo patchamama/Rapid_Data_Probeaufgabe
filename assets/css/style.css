@@ -151,17 +151,18 @@ h4 {
   text-align: center;
 }
 
-/* 
-.banner::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-} */
+#footer {
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  padding: 100px;
+  margin: 0 20% 0 20%;
+}
+
+#line {
+  border-bottom: 4px solid #a3780d;
+  margin-bottom: 50px;
+}
 
 .italic {
   font-style: italic;
@@ -200,9 +201,3 @@ button {
   text-transform: uppercase;
   border: none;
 }
-
-/* .button-style:hover {
-  background-color: #fff;
-  color: #a3780d;
-  transition: all 0.3s ease-in-out;
-} */
