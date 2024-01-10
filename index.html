@@ -9,120 +9,132 @@
       src="https://kit.fontawesome.com/0199d382d0.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Dabringhaus im Thanatorium</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul id="contact-links">
-          <li>
-            <a href="https://facebook.com/dabringhaus" target="_blank"
-              ><i class="fa-brands fa-square-facebook"></i>
-              facebook.com/dabringhaus</a
-            >
-          </li>
-          <li>
-            <a href="tel:04515922020"
-              ><i class="fa-solid fa-tty"></i> 0451-592 20 20</a
-            >
-          </li>
-        </ul>
-      </nav>
+    <div class="container">
+      <header>
+        <nav>
+          <ul id="contact-links">
+            <li>
+              <a href="tel:04515922020"
+                ><i class="fa-solid fa-tty"></i> 0451-592 20 20</a
+              >
+            </li>
+            <li>
+              <a href="https://facebook.com/dabringhaus" target="_blank"
+                ><i class="fa-brands fa-square-facebook"></i>
+                facebook.com/dabringhaus</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-      <nav>
-        <ul id="menu">
-          <li><a href="#">Dabringhaus</a></li>
-          <li><a href="#">Haus des Gedenkens</a></li>
-          <li><img class="logo" src="assets/img/logo.png" /></li>
-          <li><a href="#">Haus der Zuversicht</a></li>
-          <li><a href="#">Haus der Begegnung</a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul id="menu">
+            <li><a href="#">Dabringhaus</a></li>
+            <li><a href="#">Haus des Gedenkens</a></li>
+            <li><img class="logo" alt="logo" src="assets/img/logo.png" /></li>
+            <li><a href="#">Haus der Zuversicht</a></li>
+            <li><a href="#">Haus der Begegnung</a></li>
+          </ul>
+        </nav>
 
-      <div id="banner">
-        <div class="banner-content">
-          <h4>DABRINGHAUS IM THANATORIUM®</h4>
-          <h1>Abschied braucht ein Zuhause.</h1>
-          <button>DABRINGHAUS</button>
-          <button class="button-style">GEDENKPORTAL</button>
+        <div id="banner">
+          <div class="banner-content">
+            <h4>DABRINGHAUS IM THANATORIUM®</h4>
+            <h1>Abschied braucht ein Zuhause.</h1>
+            <button class="button-style-banner">DABRINGHAUS</button>
+            <button class="button-style">GEDENKPORTAL</button>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <section id="cards">
-      <div class="card-content card1">
-        <h4>ENTDECKEN SIE UNSER</h4>
-        <h3>Gedenkportal</h3>
-      </div>
-      <div class="card-content card2">
-        <div>
-          <h3>Persönliche Gedenkseiten</h3>
-          <p>
-            Entzünden Sie virtuelle Kerzen, kondolieren Sie, teilen Sie Fotos.
-            Traueranzeige und Termine zu den Trauerfeierlichkeiten.
-            <a class="italic award-color" href="#">Mehr erfahren..</a>
+      <section id="cards">
+        <div class="card-content card1">
+          <h4>ENTDECKEN SIE UNSER</h4>
+          <h3>Gedenkportal</h3>
+        </div>
+        <div class="card-content card2">
+          <div>
+            <h3>Persönliche Gedenkseiten</h3>
+            <p>
+              Entzünden Sie virtuelle Kerzen, kondolieren Sie, teilen Sie Fotos.
+              Traueranzeige und Termine zu den Trauerfeierlichkeiten.
+              <a class="italic award-color" href="#">Mehr erfahren...</a>
+            </p>
+          </div>
+        </div>
+        <div class="card-content card3">
+          <div>
+            <h3>Blumen bestellen</h3>
+            <p>
+              Bestellen Sie online Kränze und Sträuße bei ausge- wählten
+              Floristen und lassen Sie sie direkt zu den Trauerfeierlichkeiten
+              liefern.
+              <a class="italic award-color" href="#">Mehr erfahren...</a>
+            </p>
+          </div>
+        </div>
+        <div class="card-content card4">
+          <div>
+            <h3>Erinnerungsbücher gestalten</h3>
+            <p>
+              Gestalten Sie online ein Album, das Sie mit Freuden teilen,
+              hochwertig drucken lassen und nach Hause bestellen können.
+              <a class="italic award-color" href="#">Mehr erfahren...</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="form">
+        <form onsubmit="processForm()">
+          <span
+            >Besuchen Sie die persönliche Gedenkseite eines geliebten Menschen
+            und bestellen Sie Blumengrüße zur Trauerfeier.</span
+          >
+          <input
+            name="name-input"
+            id="name-input"
+            type="text"
+            placeholder="Bitte Namen eingeben"
+            class="button-style"
+          /><input type="submit" value=">" class="button-style button-submit" />
+          <button>Ü B E R I S C H T</button>
+        </form>
+      </section>
+
+      <footer id="footer">
+        <div class="container center">
+          <h4>UNSERE LEIDENSCHAFT IST UNSER FUNDAMENT</h4>
+          <h3>Denn Abschied braucht Herz.</h3>
+          <p class="center">
+            <span class="bold award-color">Wir sorgen für jeden Menschen,</span>
+            als wäre er unsere Mutter, unser Vater, unser Kind. Diese
+            Überzeugung ver- bindet uns alle unter dem Dach von Bestattungen
+            Dabringhaus. Aus ihr schöpfen wir täglich die Kraft, selbst Kraft zu
+            schenken und jedem das sichere Gefühl zu geben, bei uns gut
+            aufgehoben zu sein.
           </p>
-        </div>
-      </div>
-      <div class="card-content card3">
-        <div>
-          <h3>Blumen bestellen</h3>
           <p>
-            Bestellen Sie online Kränze und Sträuße bei ausge- wählten Floristen
-            und lassen Sie sie direkt zu den Trauerfeierlichkeiten liefern.
-            <a class="italic award-color" href="#">Mehr erfahren..</a>
+            Wir wissen, was wir tun, denn wir bilden uns ständig weiter,
+            unterstützen Sie mit unserer langjährigen Erfah- rung, bewahren
+            Traditionen und gehen neue Wege mit Ihnen. Kommen Sie einfach zu uns
+            –
+            <span class="bold award-color">wir begleiten Sie.</span>
           </p>
+          <button>MEHR ERFAHREN</button>
         </div>
-      </div>
-      <div class="card-content card4">
-        <div>
-          <h3>Erinnerungsbücher gestalten</h3>
-          <p>
-            Gestalten Sie online ein Album, das Sie mit Freuden teilen,
-            hochwertig drucken lassen und nach Hause bestellen können.
-            <a class="italic award-color" href="#">Mehr erfahren..</a>
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="form">
-      <form action="">
-        <span
-          >Besuchen Sie die persönliche Gedenkseite eines geliebten Menschen und
-          bestellen Sie Blumengrüße zur Trauerfeier.</span
-        >
-        <input
-          type="text"
-          placeholder="Bitte Namen eingeben"
-          class="button-style"
-        />
-        <input type="submit" value=">" class="button-style" />
-        <button>Ü B E R I S C H T</button>
-      </form>
-    </section>
-
-    <footer id="footer">
-      <div class="container center">
-        <h4>UNSERE LEIDENSCHAFT IST UNSER FUNDAMENT</h4>
-        <h1>Denn Abschied braucht Herz.</h1>
-        <p class="center">
-          <span class="bold award-color">Wir sorgen für jeden Menschen,</span>
-          als wäre er unsere Mutter, unser Vater, unser Kind. Diese Überzeugung
-          ver- bindet uns alle unter dem Dach von Bestattungen Dabringhaus. Aus
-          ihr schöpfen wir täglich die Kraft, selbst Kraft zu schenken und jedem
-          das sichere Gefühl zu geben, bei uns gut aufgehoben zu sein.
-        </p>
-        <p>
-          Wir wissen, was wir tun, denn wir bilden uns ständig weiter,
-          unterstützen Sie mit unserer langjährigen Erfah- rung, bewahren
-          Traditionen und gehen neue Wege mit Ihnen. Kommen Sie einfach zu uns –
-          <span class="bold award-color">wir begleiten Sie.</span>
-        </p>
-        <button>MEHR ERFAHREN</button>
-      </div>
-    </footer>
+      </footer>
+    </div>
 
     <div id="line"></div>
 
