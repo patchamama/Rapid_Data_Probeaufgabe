@@ -11,3 +11,5 @@
 - [ ] Check if the web page is responsive
 - [x] Testing with chrome, safari, firefox
 - [x] CSS / HTML validation
+- [ ] Test and optimize image size and performance (lighthouse)
+- [ ] Complete README with resources used, description...
